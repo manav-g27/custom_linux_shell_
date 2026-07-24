@@ -1,0 +1,5 @@
+myshell
+*.o
+.DS_Store
+.git
+.github
