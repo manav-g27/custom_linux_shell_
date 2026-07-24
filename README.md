@@ -379,19 +379,7 @@ GitHub Actions automatically
 
 > **Demo GIF**
 
-Add your terminal recording here.
-
-Recommended:
-
-- asciinema
-- GIF
-- MP4
-
-Example
-
-```
 https://asciinema.org/a/6CaITUsNR3GASsvY
-```
 
 ---
 
