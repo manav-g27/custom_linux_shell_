@@ -1,0 +1,27 @@
+name: Release Binaries
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+# Add this permissions block to allow creating GitHub releases
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build binary
+        run: make
+
+      - name: Create GitHub Release and Upload Binary
+        uses: softprops/action-gh-release@v1
+        with:
+          files: myshell
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
