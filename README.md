@@ -253,13 +253,13 @@ GitHub Actions automatically
 Clone
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/manav-g27/custom_linux_shell_.git
 ```
 
 Enter directory
 
 ```bash
-cd <repository>
+cd custom_linux_shell_
 ```
 
 Compile
@@ -390,7 +390,7 @@ Recommended:
 Example
 
 ```
-[![Demo](https://asciinema.org/a/6CaITUsNR3GASsvY)
+https://asciinema.org/a/6CaITUsNR3GASsvY
 ```
 
 ---
